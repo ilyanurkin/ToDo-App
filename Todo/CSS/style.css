@@ -1,0 +1,132 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+    
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+body{
+  font-family: 'Arimo', sans-serif;
+    margin: 0 auto;
+    width: 100vw;
+}
+.main-div{
+    background-color: #f4f4f4;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 50vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 80vh;
+
+}
+.some-task{
+  min-width: 300px;
+  max-width: 44vw;
+  display: inline-block;
+  margin-top: 0.1em;
+  margin-bottom: 0.4em;
+  background-color: #ffffff;
+  border-left: 8px solid #fb7100;
+  color: #666666;
+  padding-left: 0.3em;
+  padding: 0.3em;
+  font-size: 0.8em;
+  overflow-wrap: break-word;
+  overflow-y: scroll;
+  min-width: 28vw;
+  display: flex;
+  justify-content: space-between;
+}
+.todo-Class{
+  margin: 0 auto;
+  width: 30vw;
+  flex-direction: column;
+  margin-top: 0.2em;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 5.3rem;
+  justify-content: space-around;
+  font-size: 36px;
+    
+}
+.date-inf{
+  color:aquamarine;
+  align-items: center;
+  font-size: 11px;
+  margin-left: 10px;
+}
+input.input-task{
+    font-family: 'Arimo', sans-serif;
+    border: 2px solid #cdd2da;
+    min-width: 28vw;
+    font-size: 1.6em;
+    margin-right: -0.7em;
+    padding: 0.4em;
+    color: #666666;
+    overflow-y: scroll;
+}
+.input-button{
+    width: 2em;
+    height: 2em;
+    border-radius: 1em;
+    border: 1px solid #fb7100;
+    color: rgb(255, 255, 255);
+    background-color: #fb7100;
+    font-family: 'Arimo', sans-serif;
+    font-size: 3rem;
+    margin-left: 0px;
+}
+h1{
+  font-family: 'Arimo', sans-serif;
+  margin: 0.5em;
+  font-size: 3em;
+  margin-bottom: -0.5em;
+}
+.delete-button{
+  display: inline-block;
+  background-image: url(../Images/trash_bin_icon-icons.com_67981.svg);
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+  margin-left: 16px;
+  background-color: #ffffff;
+  padding-right: 0;
+  min-width: 28px;
+  height: 28px;
+  border: none;
+  background-size: 100%;
+}
+.delete-button:hover{
+  cursor: pointer;
+}
+.input-button:hover{
+  cursor: pointer;
+}
+
+h1{
+  color: #fb7100;
+  font-size: 3.5rem;
+}
